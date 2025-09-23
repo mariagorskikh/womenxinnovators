@@ -61,15 +61,15 @@ export default function Home() {
 
               <div className="grid grid-cols-3 gap-8 pt-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-400">500+</div>
+                  <div className="text-6xl font-bold text-purple-400">500+</div>
                   <div className="text-gray-500">Community Members</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-pink-400">3</div>
+                  <div className="text-6xl font-bold text-pink-400">3</div>
                   <div className="text-gray-500">Active Chapters</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-400">100%</div>
+                  <div className="text-6xl font-bold text-purple-400">100%</div>
                   <div className="text-gray-500">Free & Volunteer-Run</div>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function Home() {
                   </div>
                   <div className="rounded-2xl p-0 overflow-hidden shadow-sm">
                     <Image 
-                      src="/collaboration.jpg" 
+                      src="/womenx.jpeg" 
                       alt="Women entrepreneurs collaborating" 
                       width={300} 
                       height={200} 
@@ -182,7 +182,7 @@ export default function Home() {
               <div className="space-y-4 pt-6">
                 <div className="rounded-xl p-0 overflow-hidden shadow-sm">
                   <Image 
-                    src="/meetup1.jpg" 
+                    src="/womenx.jpeg" 
                     alt="Collaborative workspace environment" 
                     width={250} 
                     height={120} 
@@ -247,7 +247,7 @@ export default function Home() {
       </section>
 
       {/* Programs & Events Section */}
-      <section id="programs" className="py-20 bg-white">
+      <section id="programs" className="py-20 bg-white mt-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-extrabold text-black mb-4">
