@@ -173,7 +173,7 @@ export default function Home() {
                 </div>
                 <div className="rounded-xl p-0 overflow-hidden shadow-sm">
                   <Image 
-                    src="/member-profile.jpg" 
+                    src="/sundai.png" 
                     alt="Mentorship and guidance session" 
                     width={250} 
                     height={120} 
@@ -458,7 +458,7 @@ export default function Home() {
                 </div>
                 <div className="bg-white rounded-xl p-4 overflow-hidden">
                   <Image 
-                    src="/networking.jpg" 
+                    src="/sundai.png" 
                     alt="Impact measurement and community growth" 
                     width={250} 
                     height={180} 
