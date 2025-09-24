@@ -58,9 +58,9 @@ export default function Home() {
                   <span>JOIN</span>
                   <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
-                <a href="/mentor-matching" className="border-2 border-black text-black px-6 py-3 sm:px-8 sm:py-4 rounded-md font-semibold hover:bg-black hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 text-sm sm:text-base">
+                <a href="#engage" className="border-2 border-black text-black px-6 py-3 sm:px-8 sm:py-4 rounded-md font-semibold hover:bg-black hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 text-sm sm:text-base">
                   <UserCheck className="w-4 h-4 sm:w-5 sm:h-5" />
-                  <span>Join waitlist</span>
+                  <span>Subscribe</span>
                 </a>
               </div>
 
