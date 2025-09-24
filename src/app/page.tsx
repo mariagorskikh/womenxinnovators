@@ -26,7 +26,7 @@ export default function Home() {
             <a href="#research" className="text-black/70 hover:text-black transition-colors tracking-wide uppercase text-sm">Research</a>
             <a href="#community" className="text-black/70 hover:text-black transition-colors tracking-wide uppercase text-sm">Community</a>
           </nav>
-          <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="bg-[#20d34a] text-black px-6 py-2 rounded-md font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 inline-block text-center border border-black">
+          <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="bg-pink-400 text-black px-6 py-2 rounded-md font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 inline-block text-center border border-black">
             JOIN COMMUNITY
           </a>
         </div>
@@ -49,7 +49,7 @@ export default function Home() {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="bg-[#20d34a] text-black px-8 py-4 rounded-md font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 text-center border border-black">
+                <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="bg-pink-400 text-black px-8 py-4 rounded-md font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 text-center border border-black">
                   <span>JOIN</span>
                   <ArrowRight className="w-5 h-5" />
                 </a>
@@ -238,7 +238,7 @@ export default function Home() {
                 <li>• Ship AI products from idea to prototype</li>
               </ul>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="#programs" className="bg-[#20d34a] text-black px-8 py-4 rounded-md font-semibold border border-black inline-flex items-center justify-center">Explore AI Events</a>
+                <a href="#programs" className="bg-pink-400 text-black px-8 py-4 rounded-md font-semibold border border-black inline-flex items-center justify-center">Explore AI Events</a>
                 <a href="https://www.sundai.club/" target="_blank" rel="noopener noreferrer" className="border-2 border-black text-black px-8 py-4 rounded-md font-semibold hover:bg-black hover:text-white transition-all">About Sundai Club</a>
               </div>
             </div>
@@ -304,7 +304,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold text-black mb-3">Mentor & Co-founder Matching</h3>
                 <p className="text-black/80 mb-4 text-lg">Match with mentors and co-founders.</p>
-                <a href="/mentor-matching" className="w-full bg-[#20d34a] text-black py-3 rounded-md font-semibold hover:shadow-lg transition-all inline-block text-center border border-black">
+                <a href="/mentor-matching" className="w-full bg-pink-400 text-black py-3 rounded-md font-semibold hover:shadow-lg transition-all inline-block text-center border border-black">
                   Join waitlist
                 </a>
               </div>
@@ -479,7 +479,7 @@ export default function Home() {
             <p className="text-lg text-black/80 max-w-2xl mx-auto">Build with women who build.</p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="bg-[#20d34a] text-black px-8 py-4 rounded-md font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 border border-black">
+              <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="bg-pink-400 text-black px-8 py-4 rounded-md font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 border border-black">
                 <span>JOIN</span>
               </a>
               <a href="/waitlist" className="border-2 border-black text-black px-8 py-4 rounded-md font-semibold hover:bg-black hover:text-white transition-all duration-300 flex items-center justify-center space-x-2">
@@ -533,7 +533,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#20d34a] text-black border-t border-black/10">
+      <footer className="bg-pink-400 text-black border-t border-black/10">
         <div className="container mx-auto px-4">
           {/* Bold banner row */}
           <div className="flex items-center justify-between py-10">
