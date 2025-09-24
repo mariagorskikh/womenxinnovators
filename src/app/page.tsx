@@ -85,7 +85,7 @@ export default function Home() {
                 <div className="space-y-3 sm:space-y-4">
                   <div className="rounded-2xl p-0 overflow-hidden shadow-sm aspect-square">
                     <Image 
-                      src="/womenx9.jpg" 
+                      src="/womenx9.JPG" 
                       alt="WomenX Innovators networking event" 
                       width={300} 
                       height={300} 
@@ -94,7 +94,7 @@ export default function Home() {
                   </div>
                   <div className="rounded-2xl p-0 overflow-hidden shadow-sm aspect-square">
                     <Image 
-                      src="/womenx4.jpeg" 
+                      src="/womenx4.JPEG" 
                       alt="WomenX community gathering" 
                       width={300} 
                       height={300} 
@@ -200,7 +200,7 @@ export default function Home() {
               <div className="space-y-3 sm:space-y-4 pt-4 sm:pt-6">
                 <div className="rounded-xl p-0 overflow-hidden shadow-sm">
                   <Image 
-                    src="/womenx5.jpeg" 
+                    src="/womenx5.JPG" 
                     alt="Collaborative workspace environment" 
                     width={250} 
                     height={120} 
