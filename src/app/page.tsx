@@ -68,12 +68,12 @@ export default function Home() {
 
               <div className="grid grid-cols-3 gap-4 sm:gap-6 lg:gap-8 pt-6 sm:pt-8">
                 <div className="text-center">
-                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">500+</div>
+                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">700+</div>
                   <div className="text-xs sm:text-sm text-gray-500">Community Members</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-pink-400">3</div>
-                  <div className="text-xs sm:text-sm text-gray-500">Active Chapters</div>
+                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-pink-400">15K</div>
+                  <div className="text-xs sm:text-sm text-gray-500">Raised</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">100%</div>
