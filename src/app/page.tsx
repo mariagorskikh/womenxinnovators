@@ -1,5 +1,6 @@
 import { ArrowRight, Heart, MapPin, UserCheck, TrendingUp } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -8,22 +9,23 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-black/10 bg-white/80 backdrop-blur">
         <div className="container mx-auto px-4 py-3 sm:py-4">
           <div className="flex justify-between items-center">
-            <div className="flex items-center space-x-2 sm:space-x-3">
+            <Link href="/" className="flex items-center space-x-2 sm:space-x-3 hover:opacity-80 transition-opacity">
               <Image
-                src="/womenx-logo.png" 
+                src="/womenx-logo.png"  
                 alt="WomenX Innovators Logo" 
                 width={32} 
-                height={32} 
+                height={32}     
                 className="object-contain sm:w-10 sm:h-10"
               />
               <span className="text-lg sm:text-2xl font-bold text-black">
                 Womenx Innovators
               </span>
-            </div>
+            </Link>
             <nav className="hidden lg:flex space-x-6 xl:space-x-8">
               <a href="#about" className="text-black/70 hover:text-black transition-colors tracking-wide uppercase text-xs xl:text-sm">About</a>
               <a href="#ai" className="text-black/70 hover:text-black transition-colors tracking-wide uppercase text-xs xl:text-sm">AI</a>
               <a href="#programs" className="text-black/70 hover:text-black transition-colors tracking-wide uppercase text-xs xl:text-sm">Programs</a>
+              <a href="/resources" className="text-black/70 hover:text-black transition-colors tracking-wide uppercase text-xs xl:text-sm">Resources</a>
               <a href="#chapters" className="text-black/70 hover:text-black transition-colors tracking-wide uppercase text-xs xl:text-sm">Chapters</a>
               <a href="#engage" className="text-black/70 hover:text-black transition-colors tracking-wide uppercase text-xs xl:text-sm">Engage</a>
             </nav>
@@ -519,6 +521,7 @@ export default function Home() {
           {/* Quick links row */}
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 pb-6 sm:pb-8 text-xs sm:text-sm font-semibold uppercase tracking-wide">
             <a href="#programs" className="hover:underline">Programs</a>
+            <a href="/resources" className="hover:underline">Resources</a>
             <a href="#chapters" className="hover:underline">Chapters</a>
             <a href="#ai" className="hover:underline">AI</a>
             <a href="#engage" className="hover:underline">Socials</a>

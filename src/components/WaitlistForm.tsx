@@ -83,12 +83,12 @@ export default function WaitlistForm({ type = 'general', onSuccess }: WaitlistFo
   };
 
   return (
-    <div className="bg-white rounded-xl p-8 shadow-lg max-w-lg mx-auto">
+    <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-black/10 max-w-lg mx-auto">
       <div className="flex items-center space-x-3 mb-6">
-        <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-600 rounded-xl flex items-center justify-center">
-          <UserCheck className="w-6 h-6 text-white" />
+        <div className="w-12 h-12 bg-pink-400 rounded-xl flex items-center justify-center">
+          <UserCheck className="w-6 h-6 text-black" />
         </div>
-        <h3 className="text-2xl font-bold text-gray-800">
+        <h3 className="text-xl sm:text-2xl font-bold text-black">
           {type === 'mentor-matching' ? 'Mentor Matching Waitlist' : 'Join Our Waitlist'}
         </h3>
       </div>
@@ -105,7 +105,7 @@ export default function WaitlistForm({ type = 'general', onSuccess }: WaitlistFo
 
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="name" className="block text-sm font-medium text-black mb-2">
             Full Name *
           </label>
           <input
@@ -114,13 +114,13 @@ export default function WaitlistForm({ type = 'general', onSuccess }: WaitlistFo
             required
             value={formData.name}
             onChange={(e) => setFormData(prev => ({ ...prev, name: e.target.value }))}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+            className="w-full px-4 py-3 border border-black/20 rounded-md focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition-colors"
             placeholder="Enter your full name"
           />
         </div>
 
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="email" className="block text-sm font-medium text-black mb-2">
             Email Address *
           </label>
           <input
@@ -129,13 +129,13 @@ export default function WaitlistForm({ type = 'general', onSuccess }: WaitlistFo
             required
             value={formData.email}
             onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+            className="w-full px-4 py-3 border border-black/20 rounded-md focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition-colors"
             placeholder="Enter your email address"
           />
         </div>
 
         <div>
-          <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="company" className="block text-sm font-medium text-black mb-2">
             Company/Organization
           </label>
           <input
@@ -143,13 +143,13 @@ export default function WaitlistForm({ type = 'general', onSuccess }: WaitlistFo
             id="company"
             value={formData.company}
             onChange={(e) => setFormData(prev => ({ ...prev, company: e.target.value }))}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+            className="w-full px-4 py-3 border border-black/20 rounded-md focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition-colors"
             placeholder="Your current company or organization"
           />
         </div>
 
         <div>
-          <label htmlFor="role" className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="role" className="block text-sm font-medium text-black mb-2">
             Current Role
           </label>
           <input
@@ -157,13 +157,13 @@ export default function WaitlistForm({ type = 'general', onSuccess }: WaitlistFo
             id="role"
             value={formData.role}
             onChange={(e) => setFormData(prev => ({ ...prev, role: e.target.value }))}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+            className="w-full px-4 py-3 border border-black/20 rounded-md focus:ring-2 focus:ring-pink-400 focus:border-pink-400 transition-colors"
             placeholder="e.g., Founder, Product Manager, Engineer"
           />
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-3">
+          <label className="block text-sm font-medium text-black mb-3">
             Areas of Interest (select all that apply)
           </label>
           <div className="grid grid-cols-2 gap-3">
@@ -173,9 +173,9 @@ export default function WaitlistForm({ type = 'general', onSuccess }: WaitlistFo
                   type="checkbox"
                   checked={formData.interests.includes(interest)}
                   onChange={() => handleInterestChange(interest)}
-                  className="rounded border-gray-300 text-purple-600 focus:ring-purple-500"
+                  className="rounded border-black/20 text-pink-400 focus:ring-pink-400"
                 />
-                <span className="text-sm text-gray-700">{interest}</span>
+                <span className="text-sm text-black/80">{interest}</span>
               </label>
             ))}
           </div>
@@ -184,7 +184,7 @@ export default function WaitlistForm({ type = 'general', onSuccess }: WaitlistFo
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-gradient-to-r from-pink-500 to-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
+          className="w-full bg-pink-400 text-black py-3 px-6 rounded-md font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center space-x-2 border border-black"
         >
           {isSubmitting ? (
             <>
