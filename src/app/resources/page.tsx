@@ -102,14 +102,6 @@ export default function Resources() {
               </a>
             </div>
           </div>
-
-          {/* More Posts Coming Soon */}
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
-              <h3 className="text-xl font-semibold text-black mb-2">More Resources Coming Soon</h3>
-              <p className="text-black/80">We&apos;re working on bringing you more valuable content, tools, and insights.</p>
-            </div>
-          </div>
         </div>
       </section>
 
