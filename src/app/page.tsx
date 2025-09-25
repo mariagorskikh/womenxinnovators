@@ -318,7 +318,7 @@ export default function Home() {
                 </div> */}
                 <h3 className="text-xl sm:text-2xl font-bold text-black mb-2 sm:mb-3">Hacker Houses</h3>
                 <p className="text-black/80 mb-3 sm:mb-4 text-sm sm:text-base lg:text-lg">Living and building together.</p>
-                <div className="rounded-lg p-0 overflow-hidden aspect-square">
+                <div className="rounded-lg p-0 overflow-hidden aspect-square mb-4">
                   <Image 
                     src="/girls.jpeg" 
                     alt="Hacker house intensive session" 
@@ -327,6 +327,14 @@ export default function Home() {
                     className="rounded-lg object-cover w-full h-full"
                   />
                 </div>
+                <a 
+                  href="https://harvardst.co/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full bg-pink-400 text-black px-4 py-2.5 sm:py-3 rounded-md font-semibold hover:shadow-lg transition-all inline-block text-center border border-black text-sm sm:text-base"
+                >
+                  Visit C House
+                </a>
               </div>
             </div>
 
