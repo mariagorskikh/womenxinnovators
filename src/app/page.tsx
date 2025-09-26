@@ -422,6 +422,95 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Partners Section */}
+      <section id="partners" className="py-12 sm:py-16 lg:py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-black mb-3 sm:mb-4">
+              Partners
+            </h2>
+            <p className="text-base sm:text-lg text-black/80 max-w-2xl mx-auto">
+              Who we&apos;ve collaborated with.
+            </p>    
+          </div>
+
+          {/* Logo Carousel */}
+          <div className="relative overflow-hidden">
+            <div className="flex animate-scroll space-x-8 sm:space-x-12 lg:space-x-16">
+              {/* First set of logos */}
+              <div className="flex items-center justify-center min-w-[200px] sm:min-w-[250px] lg:min-w-[300px]">
+                <Image 
+                  src="/logos/hsc.png"
+                  alt="Harvard St. Commons"
+                  width={200}
+                  height={80}
+                  className="object-contain w-auto h-12 sm:h-16"
+                />
+              </div>
+              <div className="flex items-center justify-center min-w-[200px] sm:min-w-[250px] lg:min-w-[300px]">
+                <Image 
+                  src="/logos/c10labs.png"
+                  alt="Harvard St. Commons"
+                  width={200}
+                  height={80}
+                  className="object-contain w-auto h-12 sm:h-16"
+                />
+              </div>
+              <div className="flex items-center justify-center min-w-[200px] sm:min-w-[250px] lg:min-w-[300px]">
+                  <Image 
+                    src="/logos/fidelity.png"
+                    alt="Harvard St. Commons"
+                    width={400}
+                    height={200}
+                    className="object-contain w-auto h-28 sm:h-32"
+                  />
+              </div>
+              <div className="flex items-center justify-center min-w-[200px] sm:min-w-[250px] lg:min-w-[300px]">
+                <Image 
+                  src="/logos/foundess.png"
+                  alt="Harvard St. Commons"
+                  width={200}
+                  height={80}
+                  className="object-contain w-auto h-12 sm:h-16"
+                />
+              </div>
+              <div className="flex items-center justify-center min-w-[200px] sm:min-w-[250px] lg:min-w-[300px]">
+                <Image 
+                  src="/logos/sundaiclub.svg"
+                  alt="Harvard St. Commons"
+                  width={200}
+                  height={80}
+                  className="object-contain w-auto h-12 sm:h-16"
+                />
+              </div>
+              
+              {/* Duplicate set for seamless loop */}
+              <div className="flex items-center justify-center min-w-[200px] sm:min-w-[250px] lg:min-w-[300px]">
+                <Image 
+                  src="/logos/hsc.png"
+                  alt="Harvard St. Commons"
+                  width={200}
+                  height={80}
+                  className="object-contain w-auto h-12 sm:h-16"
+                />
+              </div>
+              <div className="flex items-center justify-center min-w-[200px] sm:min-w-[250px] lg:min-w-[300px]">
+                <span className="text-lg sm:text-xl font-bold text-black/60">Partner Logo 2</span>
+              </div>
+              <div className="flex items-center justify-center min-w-[200px] sm:min-w-[250px] lg:min-w-[300px]">
+                <span className="text-lg sm:text-xl font-bold text-black/60">Partner Logo 3</span>
+              </div>
+              <div className="flex items-center justify-center min-w-[200px] sm:min-w-[250px] lg:min-w-[300px]">
+                <span className="text-lg sm:text-xl font-bold text-black/60">Partner Logo 4</span>
+              </div>
+              <div className="flex items-center justify-center min-w-[200px] sm:min-w-[250px] lg:min-w-[300px]">
+                <span className="text-lg sm:text-xl font-bold text-black/60">Partner Logo 5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Engage Section */}
       <section id="engage" className="py-20 bg-white mb-20">
         <div className="container mx-auto px-4">
@@ -531,6 +620,7 @@ export default function Home() {
             <a href="#programs" className="hover:underline">Programs</a>
             <a href="/resources" className="hover:underline">Resources</a>
             <a href="#chapters" className="hover:underline">Chapters</a>
+            <a href="#partners" className="hover:underline">Partners</a>
             <a href="#ai" className="hover:underline">AI</a>
             <a href="#engage" className="hover:underline">Socials</a>
             <a href="mailto:womenxinnovators@gmail.com" className="hover:underline">Email Us</a>
