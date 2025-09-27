@@ -48,10 +48,10 @@ export default function Home() {
                   driving innovation
                 </h1>
                 <p className="text-lg sm:text-xl lg:text-2xl text-black leading-relaxed sm:leading-snug font-bold">
-                  <a href="#open-source" className="inline-block align-middle bg-pink-100 text-pink-700 px-2 py-0.5 rounded-md mr-2 hover:bg-pink-200 transition-colors underline-offset-2 hover:underline font-bold">
+                  {/* <a href="#open-source" className="inline-block align-middle bg-pink-100 text-pink-700 px-2 py-0.5 rounded-md mr-2 hover:bg-pink-200 transition-colors underline-offset-2 hover:underline font-bold">
                     Open Source
-                  </a>
-                  community for women building the future.
+                  </a> */}
+                   Where women build, live and launch their ideas.
                 </p>
               </div>
               
@@ -65,10 +65,10 @@ export default function Home() {
                   <span>Subscribe</span>
                 </a>
               </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        
+
         {/* Numbers moved to bottom of hero section */}
         <div className="absolute bottom-8 left-4 right-4 sm:left-4 sm:right-auto sm:bottom-12">
           <div className="max-w-6xl">
@@ -76,11 +76,11 @@ export default function Home() {
               <div className="text-left">
                 <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">700+</div>
                 <div className="text-sm sm:text-sm text-gray-800 font-bold">Community Members</div>
-              </div>
+                  </div>
               <div className="text-left">
                 <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">20K</div>
                 <div className="text-sm sm:text-sm text-gray-800 font-bold">Raised</div>
-              </div>
+                  </div>
               <div className="text-left">
                 <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">100%</div>
                 <div className="text-sm sm:text-sm text-gray-800 font-bold">Free & Volunteer-Run</div>
@@ -526,6 +526,107 @@ export default function Home() {
                 <span className="text-base sm:text-base md:text-lg lg:text-xl font-bold text-black/60">Partner Logo 5</span>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery Section */}
+      <section className="py-8 sm:py-12 lg:py-16 mb-8 sm:mb-12 lg:mb-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+            <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-black mb-2 sm:mb-3 lg:mb-4">
+              Dinners, Hackathons, Panels...
+            </h2>
+            {/* <p className="text-base sm:text-base lg:text-lg text-black/80 max-w-2xl mx-auto font-bold">
+              Moments from our community events and gatherings.
+            </p> */}
+          </div>
+
+          {/* Gallery Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+            {/* Students Image */}
+            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <Image
+                src="/womenx1.jpeg"
+                alt="Students at WomenX Innovators event"
+                width={400}
+                height={300}
+                className="w-full h-64 sm:h-72 lg:h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+            </div>
+
+            {/* WomenX Image 1 */}
+            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <Image
+                src="/womenx.jpeg"
+                alt="WomenX Innovators community event"
+                width={400}
+                height={300}
+                className="w-full h-64 sm:h-72 lg:h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+            </div>
+
+            {/* WomenX Image 2 */}
+            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <Image
+                src="/womenx3.jpg"
+                alt="WomenX Innovators networking event"
+                width={400}
+                height={300}
+                className="w-full h-64 sm:h-72 lg:h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+            </div>
+
+            {/* Community Event Image */}
+
+            {/* Founders Showcase Image */}
+            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <Image
+                src="/founders-showcase.jpg"
+                alt="Founders showcase at WomenX Innovators"
+                width={400}
+                height={300}
+                className="w-full h-64 sm:h-72 lg:h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+            </div>
+
+            {/* Girls Image */}
+            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <Image
+                src="/girls.jpeg"
+                alt="Women at WomenX Innovators event"
+                width={400}
+                height={300}
+                className="w-full h-64 sm:h-72 lg:h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+            </div>
+            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <Image
+                src="/community-event.jpg"
+                alt="Community event at WomenX Innovators"
+                width={400}
+                height={300}
+                className="w-full h-64 sm:h-72 lg:h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+            </div>
+
+            {/* WomenX1 Image */}
+            {/* <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <Image
+                src="/womenx1.jpeg"
+                alt="WomenX Innovators community gathering"
+                width={400}
+                height={300}
+                className="w-full h-64 sm:h-72 lg:h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
+            </div> */}
           </div>
         </div>
       </section>
