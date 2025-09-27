@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #fff;
   --foreground: #0a0a0a;
 }
 
@@ -33,6 +33,4 @@ body {
   animation: scroll 30s linear infinite;
 }
 
-.animate-scroll:hover {
-  animation-play-state: paused;
-}
+/* Keep scrolling even on hover */
