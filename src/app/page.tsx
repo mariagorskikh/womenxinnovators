@@ -37,18 +37,18 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden min-h-screen sm:min-h-auto pt-24 pb-8 sm:pt-28 sm:pb-12 lg:py-32 xl:py-40 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(/wxibackground.png)'}}>
+      <section className="relative overflow-hidden min-h-screen sm:min-h-screen lg:min-h-screen xl:min-h-screen pt-24 pb-8 sm:pt-28 sm:pb-12 lg:py-32 xl:py-40 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(/wxibackground.png)'}}>
         <div className="container mx-auto px-4 relative z-10 mb-30">
           <div className="max-w-6xl text-left">
             <div className="space-y-6 sm:space-y-7 lg:space-y-8">
               <div className="space-y-3 sm:space-y-4 lg:space-y-5">
-                <h1 className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold leading-tight sm:leading-[0.95] text-black">
+                <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold leading-tight sm:leading-[0.95] text-black">
                   Empowering women
                   <br />
                   driving innovation
                 </h1>
-                <p className="text-base sm:text-xl lg:text-2xl text-black leading-relaxed sm:leading-snug">
-                  <a href="#open-source" className="inline-block align-middle bg-pink-100 text-pink-700 px-2 py-0.5 rounded-md mr-2 hover:bg-pink-200 transition-colors underline-offset-2 hover:underline">
+                <p className="text-lg sm:text-xl lg:text-2xl text-black leading-relaxed sm:leading-snug font-bold">
+                  <a href="#open-source" className="inline-block align-middle bg-pink-100 text-pink-700 px-2 py-0.5 rounded-md mr-2 hover:bg-pink-200 transition-colors underline-offset-2 hover:underline font-bold">
                     Open Source
                   </a>
                   community for women building the future.
@@ -65,20 +65,25 @@ export default function Home() {
                   <span>Subscribe</span>
                 </a>
               </div>
-
-              <div className="grid grid-cols-3 gap-2 sm:gap-6 lg:gap-8 pt-4 sm:pt-8 max-w-2xl">
-                <div className="text-left">
-                  <div className="text-2xl sm:text-4xl lg:text-6xl font-bold text-black">700+</div>
-                  <div className="text-xs sm:text-sm text-gray-800">Community Members</div>
-                </div>
-                <div className="text-left">
-                  <div className="text-2xl sm:text-4xl lg:text-6xl font-bold text-black">20K</div>
-                  <div className="text-xs sm:text-sm text-gray-800">Raised</div>
-                </div>
-                <div className="text-left">
-                  <div className="text-2xl sm:text-4xl lg:text-6xl font-bold text-black">100%</div>
-                  <div className="text-xs sm:text-sm text-gray-800">Free & Volunteer-Run</div>
-                </div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Numbers moved to bottom of hero section */}
+        <div className="absolute bottom-8 left-4 right-4 sm:left-4 sm:right-auto sm:bottom-12">
+          <div className="max-w-6xl">
+            <div className="grid grid-cols-3 gap-2 sm:gap-6 lg:gap-8 max-w-2xl">
+              <div className="text-left">
+                <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">700+</div>
+                <div className="text-sm sm:text-sm text-gray-800 font-bold">Community Members</div>
+              </div>
+              <div className="text-left">
+                <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">20K</div>
+                <div className="text-sm sm:text-sm text-gray-800 font-bold">Raised</div>
+              </div>
+              <div className="text-left">
+                <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">100%</div>
+                <div className="text-sm sm:text-sm text-gray-800 font-bold">Free & Volunteer-Run</div>
               </div>
             </div>
           </div>
@@ -89,10 +94,10 @@ export default function Home() {
       <section id="about" className="py-8 sm:py-12 lg:py-16 mt-8 sm:mt-12 lg:mt-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-black mb-2 sm:mb-3 lg:mb-4">
+            <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-black mb-2 sm:mb-3 lg:mb-4">
               Women support women
             </h2>
-            <p className="text-sm sm:text-base lg:text-lg text-black/80 max-w-2xl mx-auto">
+            <p className="text-base sm:text-base lg:text-lg text-black/80 max-w-2xl mx-auto font-bold">
               Connection. Mentorship. AI proficiency.
             </p>
           </div>
@@ -100,8 +105,8 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
             <div className="space-y-4 sm:space-y-6 order-2 lg:order-1">
               <div className="space-y-2 sm:space-y-3 lg:space-y-4">
-                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-black">Our philosophy</h3>
-                <p className="text-black/80 leading-snug text-sm sm:text-base lg:text-lg">
+                <h3 className="text-2xl sm:text-2xl lg:text-3xl font-bold text-black">Our philosophy</h3>
+                <p className="text-black/80 leading-snug text-base sm:text-base lg:text-lg font-bold">
                   Collaboration over competition. Real relationships. Shared wins.
                 </p>
               </div>
@@ -109,13 +114,13 @@ export default function Home() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 lg:gap-6">
                 <div className="p-3 sm:p-4 lg:p-6 rounded-xl shadow-sm">
                   <TrendingUp className="w-5 h-5 sm:w-6 sm:h-6 lg:w-8 lg:h-8 text-black mb-2 sm:mb-3" />
-                  <h4 className="font-semibold text-black mb-1 text-sm sm:text-base lg:text-lg">Collective growth</h4>
-                  <p className="text-xs sm:text-sm text-black/80">We rise together.</p>
+                  <h4 className="font-bold text-black mb-1 text-base sm:text-base lg:text-lg">Collective growth</h4>
+                  <p className="text-sm sm:text-sm text-black/80 font-bold">We rise together.</p>
                 </div>
                 <div className="p-3 sm:p-4 lg:p-6 rounded-xl shadow-sm">
                   <Heart className="w-5 h-5 sm:w-6 sm:h-6 lg:w-8 lg:h-8 text-black mb-2 sm:mb-3" />
-                  <h4 className="font-semibold text-black mb-1 text-sm sm:text-base lg:text-lg">Genuine connection</h4>
-                  <p className="text-xs sm:text-sm text-black/80">Support that compounds.</p>
+                  <h4 className="font-bold text-black mb-1 text-base sm:text-base lg:text-lg">Genuine connection</h4>
+                  <p className="text-sm sm:text-sm text-black/80 font-bold">Support that compounds.</p>
                 </div>
               </div>
             </div>
@@ -284,9 +289,9 @@ export default function Home() {
             </div>
             {/* Right: Heading + text + single image card */}
             <div className="order-2 lg:order-2 space-y-4 sm:space-y-6">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-black leading-tight">Focused on AI</h2>
-              <p className="text-base sm:text-lg lg:text-xl text-black/80">Hands-on building. Technical skill. Real demos.</p>
-              <ul className="space-y-2 sm:space-y-3 text-black/80 text-sm sm:text-base lg:text-lg">
+              <h2 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-black leading-tight">Focused on AI</h2>
+              <p className="text-lg sm:text-lg lg:text-xl text-black/80 font-bold">Hands-on building. Technical skill. Real demos.</p>
+              <ul className="space-y-2 sm:space-y-3 text-black/80 text-base sm:text-base lg:text-lg font-bold">
                 <li>• Weekly build sessions with mentors</li>
                 <li>• Agentic workflows, RAG, evals, and deployment</li>
                 <li>• Ship AI products from idea to prototype</li>
@@ -320,13 +325,13 @@ export default function Home() {
                       className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                  <h3 className="text-base sm:text-lg lg:text-xl font-bold text-black mb-2 group-hover:text-pink-400 transition-colors">
+                  <h3 className="text-lg sm:text-lg lg:text-xl font-bold text-black mb-2 group-hover:text-pink-400 transition-colors">
                     Vibe coding notes to get unstuck
                   </h3>
-                  <p className="text-xs sm:text-sm lg:text-base text-black/80 mb-3 sm:mb-4">
+                  <p className="text-sm sm:text-sm lg:text-base text-black/80 mb-3 sm:mb-4 font-bold">
                     Tools, hacks and insights to get you unstuck while vibe coding.
                   </p>
-                  <div className="text-pink-400 font-semibold text-xs sm:text-sm lg:text-base group-hover:underline">
+                  <div className="text-pink-400 font-bold text-sm sm:text-sm lg:text-base group-hover:underline">
                     Read on Substack →
               </div>
             </div>
@@ -349,13 +354,13 @@ export default function Home() {
                       className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                  <h3 className="text-base sm:text-lg lg:text-xl font-bold text-black mb-2 group-hover:text-pink-400 transition-colors">
+                  <h3 className="text-lg sm:text-lg lg:text-xl font-bold text-black mb-2 group-hover:text-pink-400 transition-colors">
                     WXI Newsletter
                   </h3>
-                  <p className="text-xs sm:text-sm lg:text-base text-black/80 mb-3 sm:mb-4">
+                  <p className="text-sm sm:text-sm lg:text-base text-black/80 mb-3 sm:mb-4 font-bold">
                     Your weekly dose of curated opportunities, expert insights, success stories, and AI tools.
                   </p>
-                  <div className="text-pink-400 font-semibold text-xs sm:text-sm lg:text-base group-hover:underline">
+                  <div className="text-pink-400 font-bold text-sm sm:text-sm lg:text-base group-hover:underline">
                     Subscribe on Substack →
             </div>
                 </div>
@@ -369,18 +374,18 @@ export default function Home() {
       <section id="chapters" className="py-8 sm:py-12 lg:py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-black mb-2 sm:mb-3 lg:mb-4">
+            <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-black mb-2 sm:mb-3 lg:mb-4">
               Chapters
             </h2>
-            <p className="text-sm sm:text-base lg:text-lg text-black/80 max-w-2xl mx-auto">Local communities, national impact.</p>
+            <p className="text-base sm:text-base lg:text-lg text-black/80 max-w-2xl mx-auto font-bold">Local communities, national impact.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             <div className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 text-center shadow-sm">
               <div className="mb-4 sm:mb-6">
                 <MapPin className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-pink-400 mx-auto mb-2 sm:mb-3 lg:mb-4" />
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-black">Boston</h3>
-                <p className="text-sm sm:text-base text-black/80">Hub for biotech and academia</p>
+                <h3 className="text-xl sm:text-xl lg:text-2xl font-bold text-black">Boston</h3>
+                <p className="text-base sm:text-base text-black/80 font-bold">Hub for biotech and academia</p>
               </div>
               <div className="bg-white rounded-lg p-2 sm:p-3 lg:p-4 mb-3 sm:mb-4 overflow-hidden">
                 <Image 
@@ -391,14 +396,14 @@ export default function Home() {
                   className="rounded-lg object-cover w-full h-auto"
                 />
               </div>
-              <p className="text-xs sm:text-sm text-black/80">150+ active members</p>
+              <p className="text-sm sm:text-sm text-black/80 font-bold">150+ active members</p>
             </div>
 
             <div className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 text-center shadow-sm">
               <div className="mb-4 sm:mb-6">
                 <MapPin className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-pink-400 mx-auto mb-2 sm:mb-3 lg:mb-4" />
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-black">New York</h3>
-                <p className="text-sm sm:text-base text-black/80">Fintech and media innovation</p>
+                <h3 className="text-xl sm:text-xl lg:text-2xl font-bold text-black">New York</h3>
+                <p className="text-base sm:text-base text-black/80 font-bold">Fintech and media innovation</p>
               </div>
               <div className="bg-white rounded-lg p-2 sm:p-3 lg:p-4 mb-3 sm:mb-4 overflow-hidden">
                 <Image 
@@ -409,14 +414,14 @@ export default function Home() {
                   className="rounded-lg object-cover w-full h-auto"
                 />
               </div>
-              <p className="text-xs sm:text-sm text-black/80">200+ active members</p>
+              <p className="text-sm sm:text-sm text-black/80 font-bold">200+ active members</p>
             </div>
 
             <div className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 text-center shadow-sm md:col-span-2 lg:col-span-1">
               <div className="mb-4 sm:mb-6">
                 <MapPin className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-pink-400 mx-auto mb-2 sm:mb-3 lg:mb-4" />
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-black">San Francisco</h3>
-                <p className="text-sm sm:text-base text-black/80">Coming Soon!</p>
+                <h3 className="text-xl sm:text-xl lg:text-2xl font-bold text-black">San Francisco</h3>
+                <p className="text-base sm:text-base text-black/80 font-bold">Coming Soon!</p>
               </div>
               <div className="bg-white rounded-lg p-2 sm:p-3 lg:p-4 mb-3 sm:mb-4 overflow-hidden">
                 <Image 
@@ -427,7 +432,7 @@ export default function Home() {
                   className="rounded-lg object-cover w-full h-auto"
                 />
               </div>
-              <p className="text-xs sm:text-sm text-black/80">Tech and AI innovation hub</p>
+              <p className="text-sm sm:text-sm text-black/80 font-bold">Tech and AI innovation hub</p>
             </div>
           </div>
         </div>
@@ -440,10 +445,10 @@ export default function Home() {
       <section id="partners" className="py-8 sm:py-12 lg:py-16 mb-8 sm:mb-12 lg:mb-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-black mb-2 sm:mb-3 lg:mb-4">
+            <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-black mb-2 sm:mb-3 lg:mb-4">
               Partners
             </h2>
-            <p className="text-sm sm:text-base lg:text-lg text-black/80 max-w-2xl mx-auto">
+            <p className="text-base sm:text-base lg:text-lg text-black/80 max-w-2xl mx-auto font-bold">
               Who we&apos;ve collaborated with.
             </p>
           </div>
@@ -509,16 +514,16 @@ export default function Home() {
                 />
               </div>
               <div className="flex items-center justify-center min-w-[150px] sm:min-w-[180px] md:min-w-[200px] lg:min-w-[250px] xl:min-w-[300px]">
-                <span className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-black/60">Partner Logo 2</span>
+                <span className="text-base sm:text-base md:text-lg lg:text-xl font-bold text-black/60">Partner Logo 2</span>
               </div>
               <div className="flex items-center justify-center min-w-[150px] sm:min-w-[180px] md:min-w-[200px] lg:min-w-[250px] xl:min-w-[300px]">
-                <span className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-black/60">Partner Logo 3</span>
+                <span className="text-base sm:text-base md:text-lg lg:text-xl font-bold text-black/60">Partner Logo 3</span>
               </div>
               <div className="flex items-center justify-center min-w-[150px] sm:min-w-[180px] md:min-w-[200px] lg:min-w-[250px] xl:min-w-[300px]">
-                <span className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-black/60">Partner Logo 4</span>
+                <span className="text-base sm:text-base md:text-lg lg:text-xl font-bold text-black/60">Partner Logo 4</span>
               </div>
               <div className="flex items-center justify-center min-w-[150px] sm:min-w-[180px] md:min-w-[200px] lg:min-w-[250px] xl:min-w-[300px]">
-                <span className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-black/60">Partner Logo 5</span>
+                <span className="text-base sm:text-base md:text-lg lg:text-xl font-bold text-black/60">Partner Logo 5</span>
               </div>
             </div>
           </div>
@@ -533,7 +538,7 @@ export default function Home() {
             <div className="flex items-center gap-4">
               <span className="hidden sm:block text-xs sm:text-sm tracking-wider uppercase">Community · Mentorship · Innovation</span>
             </div>
-            <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight uppercase text-center">WomenX Innovators</div>
+            <div className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight uppercase text-center">WomenX Innovators</div>
           </div>
 
           {/* Engage content moved to footer */}
@@ -548,14 +553,14 @@ export default function Home() {
                   style={{ background: 'white' }}
                   scrolling="no"
                 />
-                <p className="text-sm text-black/70 mt-3">Get our weekly dose of opportunities, stories, and AI tools in your inbox.</p>
+                <p className="text-base text-black/70 mt-3 font-bold">Get our weekly dose of opportunities, stories, and AI tools in your inbox.</p>
               </div>
             </div>
 
             {/* Social + Collaboration */}
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-black mb-2 sm:mb-3">Connect on Social</h3>
+                <h3 className="text-xl sm:text-xl lg:text-2xl font-bold text-black mb-2 sm:mb-3">Connect on Social</h3>
                 <div className="flex items-center gap-5">
                   <a
                     href="https://womenxinnovators.substack.com/"
