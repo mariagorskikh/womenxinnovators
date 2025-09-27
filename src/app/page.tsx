@@ -83,7 +83,7 @@ export default function Home() {
                   </div>
               <div className="text-left">
                 <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">100%</div>
-                <div className="text-sm sm:text-sm text-gray-800 font-bold">Free & Volunteer-Run</div>
+                <div className="text-sm sm:text-sm text-gray-800 font-bold">Free</div>
               </div>
             </div>
           </div>
