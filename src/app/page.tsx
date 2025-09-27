@@ -68,15 +68,15 @@ export default function Home() {
 
               <div className="grid grid-cols-3 gap-3 sm:gap-6 lg:gap-8 pt-6 sm:pt-8 max-w-2xl">
                 <div className="text-left">
-                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold" style={{color: '#06b64f'}}>700+</div>
+                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">700+</div>
                   <div className="text-xs sm:text-sm text-gray-800">Community Members</div>
                 </div>
                 <div className="text-left">
-                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold" style={{color: '#06b64f'}}>20K</div>
+                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">20K</div>
                   <div className="text-xs sm:text-sm text-gray-800">Raised</div>
                 </div>
                 <div className="text-left">
-                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold" style={{color: '#06b64f'}}>100%</div>
+                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">100%</div>
                   <div className="text-xs sm:text-sm text-gray-800">Free & Volunteer-Run</div>
                 </div>
               </div>
@@ -151,6 +151,18 @@ export default function Home() {
                     height={120} 
                     className="rounded-lg object-cover w-full h-auto"
                   />
+                </div>
+                <div className="relative rounded-xl overflow-hidden shadow-sm">
+                  <Image 
+                    src="/womenx8.jpg"
+                    alt="Women in AI community"
+                    width={250}
+                    height={120}
+                    className="rounded-lg object-cover w-full h-auto"
+                  />
+                  <div className="absolute bottom-2 left-2 right-2 bg-white/95 backdrop-blur-sm text-black p-1.5 text-xs font-semibold rounded-full text-center">
+                    We won the C10 Labs AI Hackathon
+                  </div>
                 </div>
               </div>
             </div>
@@ -260,7 +272,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left: AI visual - responsive */}
-            <div className="order-2 lg:order-1 flex justify-center lg:justify-start">
+            <div className="order-1 lg:order-1 flex justify-center lg:justify-start">
               <div className="w-full max-w-md lg:max-w-none lg:-ml-16 xl:-ml-24">
                 <Image
                   src="/ai1.png"
@@ -271,8 +283,8 @@ export default function Home() {
                 />
               </div>
             </div>
-            {/* Right: Heading + text + two side-by-side image cards */}
-            <div className="order-1 lg:order-2 space-y-4 sm:space-y-6">
+            {/* Right: Heading + text + single image card */}
+            <div className="order-2 lg:order-2 space-y-4 sm:space-y-6">
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-black leading-tight">Focused on AI</h2>
               <p className="text-base sm:text-lg lg:text-xl text-black/80">Hands-on building. Technical skill. Real demos.</p>
               <ul className="space-y-2 sm:space-y-3 text-black/80 text-sm sm:text-base lg:text-lg">
@@ -280,38 +292,79 @@ export default function Home() {
                 <li>• Agentic workflows, RAG, evals, and deployment</li>
                 <li>• Ship AI products from idea to prototype</li>
               </ul>
-              {/* Two cards under the text */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mt-6">
-                <div className="relative rounded-2xl overflow-hidden aspect-square bg-white">
-                  <Image
-                    src="/sundai.png"
-                    alt="Sundai Club"
-                    width={1200}
-                    height={600}
-                    className="w-full h-full object-contain p-4"
-                  />
-                  <div className="absolute bottom-2 left-2 right-2 bg-white/95 backdrop-blur-sm text-black p-2 text-xs sm:text-sm font-semibold rounded-full text-center">
-                    Sundai hackathon
-                  </div>
-                </div>
-                <div className="relative rounded-2xl overflow-hidden aspect-square">
-                  <Image 
-                    src="/womenx8.jpg"
-                    alt="Women in AI community"
-                    width={1600}
-                    height={900}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute bottom-2 left-2 right-2 bg-white/95 backdrop-blur-sm text-black p-2 text-xs sm:text-sm font-semibold rounded-full text-center">
-                    We won the C10 Labs AI Hackathon
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Resources Section */}
+      <section id="resources" className="py-8 sm:py-12 lg:py-16">
+        <div className="container mx-auto px-4">
+
+          {/* Substack Posts */}
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+              {/* Vibe Coding Post */}
+              <a 
+                href="https://womenxinnovators.substack.com/p/vibe-coding-notes-to-get-unstuck"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block"
+              >
+                <div className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                  <div className="rounded-xl overflow-hidden mb-3 sm:mb-4">
+                  <Image 
+                      src="/substack.jpg"
+                      alt="Vibe coding notes to get unstuck by Womenx Innovators"
+                      width={400}
+                      height={200}
+                      className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                  <h3 className="text-base sm:text-lg lg:text-xl font-bold text-black mb-2 group-hover:text-pink-400 transition-colors">
+                    Vibe coding notes to get unstuck
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base text-black/80 mb-3 sm:mb-4">
+                    Tools, hacks and insights to get you unstuck while vibe coding.
+                  </p>
+                  <div className="text-pink-400 font-semibold text-xs sm:text-sm lg:text-base group-hover:underline">
+                    Read on Substack →
+              </div>
+            </div>
+              </a>
+
+              {/* Main Substack */}
+              <a 
+                href="https://womenxinnovators.substack.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block"
+              >
+                <div className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 shadow-sm hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                  <div className="rounded-xl overflow-hidden mb-3 sm:mb-4">
+                  <Image 
+                      src="/substack2.jpg"
+                      alt="Womenx Innovators Substack Newsletter"
+                      width={400}
+                      height={200}
+                      className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                  <h3 className="text-base sm:text-lg lg:text-xl font-bold text-black mb-2 group-hover:text-pink-400 transition-colors">
+                    WXI Newsletter
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base text-black/80 mb-3 sm:mb-4">
+                    Your weekly dose of curated opportunities, expert insights, success stories, and AI tools.
+                  </p>
+                  <div className="text-pink-400 font-semibold text-xs sm:text-sm lg:text-base group-hover:underline">
+                    Subscribe on Substack →
+            </div>
+                </div>
+                </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Chapters Section */}
       <section id="chapters" className="py-8 sm:py-12 lg:py-16">
