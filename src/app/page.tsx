@@ -60,7 +60,7 @@ export default function Home() {
                   <span>JOIN</span>
                   <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
-                <a href="#engage" className="w-full sm:w-auto  text-black px-6 py-3 sm:px-8 sm:py-4 rounded-md font-semibold hover:bg-black hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 text-sm sm:text-base">
+                <a href="#footer" className="w-full sm:w-auto  text-black px-6 py-3 sm:px-8 sm:py-4 rounded-md font-semibold hover:bg-black hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 text-sm sm:text-base">
                   <UserCheck className="w-4 h-4 sm:w-5 sm:h-5" />
                   <span>Subscribe</span>
                 </a>
@@ -527,7 +527,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="text-black bg-pink-400">
+      <footer id="footer" className="text-black bg-pink-400">
         <div className="container mx-auto px-4">
           {/* Bold banner row */}
           <div className="flex flex-col sm:flex-row items-center justify-between py-6 sm:py-8 lg:py-10 gap-3 sm:gap-4 lg:gap-0">
