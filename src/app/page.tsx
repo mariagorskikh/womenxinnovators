@@ -37,52 +37,51 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden pt-28 pb-12 sm:py-20 lg:py-32 xl:py-40 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(/wxibackground.png)'}}>
+      <section className="relative overflow-hidden min-h-screen sm:min-h-auto pt-24 pb-8 sm:pt-28 sm:pb-12 lg:py-32 xl:py-40 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(/wxibackground.png)'}}>
         <div className="container mx-auto px-4 relative z-10 mb-30">
           <div className="max-w-6xl text-left">
-            <div className="space-y-7 sm:space-y-8">
-              <div className="space-y-4 sm:space-y-5">
-                <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold leading-[0.95] sm:leading-[0.95] text-black">
+            <div className="space-y-6 sm:space-y-7 lg:space-y-8">
+              <div className="space-y-3 sm:space-y-4 lg:space-y-5">
+                <h1 className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold leading-tight sm:leading-[0.95] text-black">
                   Empowering women
                   <br />
                   driving innovation
                 </h1>
-                <p className="text-lg sm:text-xl lg:text-2xl text-black leading-snug">
-                  <a href="#open-source" className="inline-block align-middle bg-pink-100 text-pink-700 px-2 py-0.5 rounded-md mr-2  hover:bg-pink-200 transition-colors underline-offset-2 hover:underline">
+                <p className="text-base sm:text-xl lg:text-2xl text-black leading-relaxed sm:leading-snug">
+                  <a href="#open-source" className="inline-block align-middle bg-pink-100 text-pink-700 px-2 py-0.5 rounded-md mr-2 hover:bg-pink-200 transition-colors underline-offset-2 hover:underline">
                     Open Source
                   </a>
                   community for women building the future.
                 </p>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-start">
-                <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-pink-400 text-black px-6 py-3 sm:px-8 sm:py-4 rounded-md font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 text-center  text-sm sm:text-base">
+              <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 justify-start">
+                <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="w-fit sm:w-auto bg-pink-400 text-black px-4 py-2 sm:px-8 sm:py-4 rounded-md font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 text-center text-xs sm:text-base">
                   <span>JOIN</span>
-                  <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
+                  <ArrowRight className="w-3 h-3 sm:w-5 sm:h-5" />
                 </a>
-                <a href="#footer" className="w-full sm:w-auto  text-black px-6 py-3 sm:px-8 sm:py-4 rounded-md font-semibold hover:bg-black hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 text-sm sm:text-base">
-                  <UserCheck className="w-4 h-4 sm:w-5 sm:h-5" />
+                <a href="#footer" className="w-fit sm:w-auto bg-black text-white px-4 py-2 sm:px-8 sm:py-4 rounded-md font-semibold hover:bg-gray-800 transition-all duration-300 flex items-center justify-center space-x-2 text-xs sm:text-base">
+                  <UserCheck className="w-3 h-3 sm:w-5 sm:h-5" />
                   <span>Subscribe</span>
                 </a>
               </div>
 
-              <div className="grid grid-cols-3 gap-3 sm:gap-6 lg:gap-8 pt-6 sm:pt-8 max-w-2xl">
+              <div className="grid grid-cols-3 gap-2 sm:gap-6 lg:gap-8 pt-4 sm:pt-8 max-w-2xl">
                 <div className="text-left">
-                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">700+</div>
+                  <div className="text-2xl sm:text-4xl lg:text-6xl font-bold text-black">700+</div>
                   <div className="text-xs sm:text-sm text-gray-800">Community Members</div>
                 </div>
                 <div className="text-left">
-                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">20K</div>
+                  <div className="text-2xl sm:text-4xl lg:text-6xl font-bold text-black">20K</div>
                   <div className="text-xs sm:text-sm text-gray-800">Raised</div>
                 </div>
                 <div className="text-left">
-                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">100%</div>
+                  <div className="text-2xl sm:text-4xl lg:text-6xl font-bold text-black">100%</div>
                   <div className="text-xs sm:text-sm text-gray-800">Free & Volunteer-Run</div>
                 </div>
               </div>
             </div>
           </div>
-          
         </div>
       </section>
 
