@@ -75,7 +75,7 @@ export default function Home() {
             <div className="grid grid-cols-3 gap-2 sm:gap-6 lg:gap-8 max-w-2xl">
               <div className="text-left">
                 <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">700+</div>
-                <div className="text-sm sm:text-sm text-gray-800 font-bold">Community Members</div>
+                <div className="text-sm sm:text-sm text-gray-800 font-bold">members</div>
                   </div>
               <div className="text-left">
                 <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-black">20K</div>
