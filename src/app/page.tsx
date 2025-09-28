@@ -17,17 +17,17 @@ export default function Home() {
                 height={32} 
                 className="object-contain sm:w-10 sm:h-10"
               /> */}
-              <span className="text-lg sm:text-2xl font-bold text-white">
+                <span className="text-lg sm:text-2xl font-bold text-black">
                 Womenx Innovators
               </span>
             </Link>
             <nav className="hidden lg:flex space-x-6 xl:space-x-8">
-              <a href="#open-source" className="text-white/70 hover:text-white  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">About</a>
-              <a href="#ai" className="text-white/70 hover:text-white transition-colors tracking-wide uppercase text-xs xl:text-sm">AI</a>
-              <a href="#open-source" className="text-white/70 hover:text-white  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Community</a>
-              <a href="/resources" className="text-white/70 hover:text-white  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Resources</a>
-              <a href="#partners" className="text-white/70 hover:text-white  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Partners</a>
-              <a href="#footer" className="text-white/70 hover:text-white  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Engage</a>
+              <a href="#open-source" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">About</a>
+              <a href="#ai" className="text-black/70 hover:text-black transition-colors tracking-wide uppercase text-xs xl:text-sm">AI</a>
+              <a href="#open-source" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Community</a>
+              <a href="/resources" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Resources</a>
+              <a href="#partners" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Partners</a>
+              <a href="#footer" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Engage</a>
             </nav>
             <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="bg-pink-400 text-black px-3 py-1.5 sm:px-6 sm:py-2 rounded-md font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 inline-block text-center  text-xs sm:text-sm">
               JOIN
@@ -37,17 +37,17 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden min-h-screen sm:min-h-screen lg:min-h-screen xl:min-h-screen pt-24 pb-8 sm:pt-28 sm:pb-12 lg:py-32 xl:py-40 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(/womenx3.jpg)'}}>
+      <section className="relative overflow-hidden min-h-screen sm:min-h-screen lg:min-h-screen xl:min-h-screen pt-24 pb-8 sm:pt-28 sm:pb-12 lg:py-32 xl:py-40 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(/sanfrancisco.png)'}}>
         <div className="container mx-auto px-4 relative z-10 mb-30">
           <div className="max-w-6xl text-left">
             <div className="space-y-6 sm:space-y-7 lg:space-y-8">
               <div className="space-y-3 sm:space-y-4 lg:space-y-5">
-                <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold leading-tight sm:leading-[0.95] text-white">
+                <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold leading-tight sm:leading-[0.95] text-black">
                   Empowering women
                   <br />
                   driving innovation
                 </h1>
-                <p className="text-lg sm:text-xl lg:text-2xl text-white leading-relaxed sm:leading-snug font-bold">
+                  <p className="text-lg sm:text-xl lg:text-2xl text-black leading-relaxed sm:leading-snug font-bold">
                   {/* <a href="#open-source" className="inline-block align-middle bg-pink-100 text-pink-700 px-2 py-0.5 rounded-md mr-2 hover:bg-pink-200 transition-colors underline-offset-2 hover:underline font-bold">
                     Open Source
                   </a> */}
@@ -69,22 +69,29 @@ export default function Home() {
               </div>
             </div>
 
-        {/* Numbers moved to bottom of hero section */}
-        <div className="absolute bottom-8 left-4 right-4 sm:left-4 sm:right-auto sm:bottom-12">
-          <div className="max-w-6xl">
-            <div className="grid grid-cols-3 gap-2 sm:gap-6 lg:gap-8 max-w-2xl">
-              <div className="text-left">
-                <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white">700+</div>
-                      <div className="text-sm sm:text-sm text-white font-bold">members</div>
-                  </div>
-              <div className="text-left">
-                <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white">20K</div>
-                <div className="text-sm sm:text-sm text-white font-bold">Raised</div>
-                  </div>
-              <div className="text-left">
-                  <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white">100%</div>
-                <div className="text-sm sm:text-sm text-white font-bold">Free</div>
-              </div>
+      </section>
+
+      {/* Numbers Section */}
+      <section className="py-8 sm:py-12 lg:py-16 mt-8 sm:mt-12 lg:mt-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+            <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-black mb-2 sm:mb-3 lg:mb-4">
+              Our Impact in Numbers
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
+            <div className="text-center">
+              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-3">700+</div>
+              <div className="text-base sm:text-lg text-pink-400 font-bold">members</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-3">20K</div>
+              <div className="text-base sm:text-lg text-pink-400 font-bold">Raised</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-3">100%</div>
+              <div className="text-base sm:text-lg text-pink-400 font-bold">Free</div>
             </div>
           </div>
         </div>
@@ -289,7 +296,7 @@ export default function Home() {
             </div>
             {/* Right: Heading + text + single image card */}
             <div className="order-2 lg:order-2 space-y-4 sm:space-y-6">
-              <h2 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-black leading-tight">Focused on AI</h2>
+              <h2 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-black leading-tight">Hands on building</h2>
               <p className="text-lg sm:text-lg lg:text-xl text-black/80 font-bold">Hands-on building. Technical skill. Real demos.</p>
               <ul className="space-y-2 sm:space-y-3 text-black/80 text-base sm:text-base lg:text-lg font-bold">
                 <li>• Weekly build sessions with mentors</li>
