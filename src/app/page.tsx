@@ -80,7 +80,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
             <div className="text-center">
-              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-3">700+</div>
+              <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-3">2.5K+</div>
               <div className="text-base sm:text-lg text-pink-400 font-bold">members</div>
             </div>
             <div className="text-center">
