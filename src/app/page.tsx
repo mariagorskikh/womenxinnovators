@@ -22,12 +22,10 @@ export default function Home() {
               </span>
             </Link>
             <nav className="hidden lg:flex space-x-6 xl:space-x-8">
-              <a href="#open-source" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">About</a>
-              <a href="#ai" className="text-black/70 hover:text-black transition-colors tracking-wide uppercase text-xs xl:text-sm">AI</a>
-              <a href="#open-source" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Community</a>
-              <a href="/resources" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Resources</a>
-              <a href="#partners" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Partners</a>
-              <a href="#footer" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm">Engage</a>
+              <a href="#ai" className="text-black/70 hover:text-black transition-colors tracking-wide uppercase text-xs xl:text-sm font-bold">AI</a>
+              <a href="/resources" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm font-bold">Resources</a>
+              <a href="#partners" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm font-bold">Partners</a>
+              <a href="#footer" className="text-black/70 hover:text-black  hover:underline transition-colors tracking-wide uppercase text-xs xl:text-sm font-bold">Engage</a>
             </nav>
             <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="bg-pink-400 text-black px-3 py-1.5 sm:px-6 sm:py-2 rounded-md font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 inline-block text-center  text-xs sm:text-sm">
               JOIN
@@ -736,7 +734,6 @@ export default function Home() {
           </div>
           {/* Quick links row */}
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 pb-6 sm:pb-8 text-xs sm:text-sm font-semibold uppercase tracking-wide">
-            <a href="#about" className="hover:underline">About</a>
             <a href="#ai" className="hover:underline">AI</a>
             <a href="#community" className="hover:underline">Community</a>
             <a href="/resources" className="hover:underline">Resources</a>
