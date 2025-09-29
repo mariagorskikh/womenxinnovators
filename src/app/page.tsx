@@ -55,13 +55,13 @@ export default function Home() {
                 </p>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 justify-start">
-                <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="w-fit sm:w-auto bg-pink-400 text-black px-4 py-2 sm:px-8 sm:py-4 rounded-md font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 text-center text-xs sm:text-base">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 justify-start">
+                <a href="https://airtable.com/appXXP4r8lM2iLVNQ/pagC7UyyZvbvPUa9U/form" target="_blank" rel="noopener noreferrer" className="w-fit sm:w-auto bg-pink-400 text-black px-6 py-3 sm:px-10 sm:py-5 rounded-md font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-3 text-center text-sm sm:text-lg">
                   <span>JOIN</span>
-                  <ArrowRight className="w-3 h-3 sm:w-5 sm:h-5" />
+                  <ArrowRight className="w-4 h-4 sm:w-6 sm:h-6" />
                 </a>
-                <a href="#footer" className="w-fit sm:w-auto bg-black text-white px-4 py-2 sm:px-8 sm:py-4 rounded-md font-semibold hover:bg-gray-800 transition-all duration-300 flex items-center justify-center space-x-2 text-xs sm:text-base">
-                  <UserCheck className="w-3 h-3 sm:w-5 sm:h-5" />
+                <a href="#footer" className="w-fit sm:w-auto bg-black text-white px-6 py-3 sm:px-10 sm:py-5 rounded-md font-semibold hover:bg-gray-800 transition-all duration-300 flex items-center justify-center space-x-3 text-sm sm:text-lg">
+                  <UserCheck className="w-4 h-4 sm:w-6 sm:h-6" />
                   <span>Subscribe</span>
                 </a>
               </div>
@@ -284,14 +284,16 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left: AI visual - responsive */}
             <div className="order-1 lg:order-1 flex justify-center lg:justify-start">
-              <div className="w-full max-w-md lg:max-w-none lg:-ml-16 xl:-ml-24">
-                <Image
-                  src="/ai1.png"
-                  alt="AI typography"
-                  width={2000}
-                  height={2000}
-                  className="w-full h-auto object-contain select-none pointer-events-none"
-                />
+              <div className="w-full max-w-md lg:max-w-none lg:-ml-16 xl:-ml-24 pl-8 sm:pl-12 lg:pl-16 xl:pl-20">
+                <div className="rounded-xl overflow-hidden shadow-lg">
+                  <Image
+                    src="/hi.jpeg"
+                    alt="Founders showcase at WomenX Innovators"
+                    width={600}
+                    height={400}
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
               </div>
             </div>
             {/* Right: Heading + text + single image card */}
